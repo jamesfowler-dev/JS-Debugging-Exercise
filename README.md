@@ -4,13 +4,13 @@
 
 The purpose of the exercise is to get the game up and running and fully functional.
 
-Firstly, click on Fork above to copy this repo into your own GitHub account.
+Firstly, click on the "Fork" button above to copy this repo into your own GitHub account.
 
-![alt text](image.png)
+![Fork Button](/assets/images/fork-button.png)
 
 Give your repo a name and click "Create fork".
 
-![alt text](image-1.png)
+![Create Fork](/assets/images/create-fork.png)
 
 Now you can create your project from your own repo and solve the problems.
 
