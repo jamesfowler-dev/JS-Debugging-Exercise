@@ -1,8 +1,8 @@
 # Javascript Debugging Exercise
 
-## There are 10 errors in this project relating to Javascript.
+## There are 10 errors in this Number Game project relating to Javascript.
 
-The purpose of the exercise is to get the game up and running and fully functional.
+The purpose of the exercise is to get the game up and running and fully functional without using CoPilot, in order to test your Javascript knowledge.
 
 Firstly, click on the "Fork" button above to copy this repo into your own GitHub account.
 
