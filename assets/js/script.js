@@ -1,5 +1,5 @@
 // Get the DOM elements and initialize the game
-const inputElement = document.querySelector(".input-field");
+const inputElement = document.querySelector("input");
 const messageElement = document.querySelector(".message");
 const checkButton = document.querySelector("button");
 const remainingGuesses = document.querySelector(".guesses-left");
@@ -28,8 +28,11 @@ function buttonClicked() {
     // Get the value from the input field
     let inputValue = inputElement.value;
 
+    console.log(inputValue);
+    console.log(randomNumber);
+
     // Check if the input value is equal to the random number
-    if (inputValue === randomNumber) {
+    if (inputValue == randomNumber) {
         // Update guessed number, disable input, check button text and color.
         messageElement.textContent = `Congratulations - ${inputValue} is correct!`;
         inputElement.disabled = true;
@@ -47,7 +50,7 @@ function buttonClicked() {
         //Check if input value is < random number and within 1-99 range.
     } else if (inputValue < randomNumber && inputValue > 0) {
         // Update the guessed number text and remaining chances
-        messageElement.textContext = "Your guess is low";
+        messageElement.textContent = "Your guess is low";
         remainingGuesses.textContent = guessesLeft;
         messageElement.style.color = "#333";
 
@@ -78,3 +81,17 @@ function buttonClicked() {
     inputElement.focus();
     inputElement.value = "";
 }
+
+// 10 bugs to find:
+
+// * No script tag on index page
+// * Adjusted class name on line 2
+// * function spelling error on line 17
+// * line 26 needs to be — and not ++
+// * line 29, need Number to convert string to integer
+// * line 32: add brackets to condition
+// * line 63: change == to ===
+// * line 63: variable name incorrect, need guessesLeft
+// * line 66: single quote and double-quote error
+// * if statement missing }
+// * line 41 missing {
