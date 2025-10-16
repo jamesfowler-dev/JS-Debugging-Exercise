@@ -81,17 +81,3 @@ function buttonClicked() {
     inputElement.focus();
     inputElement.value = "";
 }
-
-// 10 bugs to find:
-
-// * No script tag on index page
-// * Adjusted class name on line 2
-// * function spelling error on line 17
-// * line 26 needs to be — and not ++
-// * line 29, need Number to convert string to integer
-// * line 32: add brackets to condition
-// * line 63: change == to ===
-// * line 63: variable name incorrect, need guessesLeft
-// * line 66: single quote and double-quote error
-// * if statement missing }
-// * line 41 missing {
